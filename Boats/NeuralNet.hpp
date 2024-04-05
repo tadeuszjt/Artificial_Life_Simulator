@@ -2,9 +2,9 @@
 #define NEURALNET_HPP
 
 #include <cstdio>
-#include "Soup/Jackstd.hpp" 
-#include "Soup/SoupSFML.hpp"
-#include "Soup/Resources.hpp"
+#include "../Soup/Jackstd.hpp" 
+#include "../Soup/SoupSFML.hpp"
+#include "../Soup/Resources.hpp"
 
 class NeuralNet {
 public:

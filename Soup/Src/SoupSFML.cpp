@@ -37,6 +37,33 @@ void sfQuadTexcoords(sf::Vertex quad[], Rectf rec) {
 	quad[3].texCoords.y = yopp;
 }
 
+void sfQuadPositions(sf::Vertex quad[], Recti rec) {
+	const float xopp = rec.x + rec.w;
+	const float yopp = rec.y + rec.h;
+	quad[0].position.x = rec.x;
+	quad[0].position.y = rec.y;
+	quad[1].position.x = xopp;
+	quad[1].position.y = rec.y;
+	quad[2].position.x = xopp;
+	quad[2].position.y = yopp;
+	quad[3].position.x = rec.x;
+	quad[3].position.y = yopp;
+}
+
+void sfQuadTexcoords(sf::Vertex quad[], Recti rec) {
+	const float xopp = rec.x + rec.w;
+	const float yopp = rec.y + rec.h;
+	quad[0].texCoords.x = rec.x;
+	quad[0].texCoords.y = rec.y;
+	quad[1].texCoords.x = xopp;
+	quad[1].texCoords.y = rec.y;
+	quad[2].texCoords.x = xopp;
+	quad[2].texCoords.y = yopp;
+	quad[3].texCoords.x = rec.x;
+	quad[3].texCoords.y = yopp;
+}
+
+
 void sfQuadColour(sf::Vertex quad[], Colour c) {
 	const sf::Color sfcol(c.r, c.b, c.g, c.a);
 	quad[0].color = sfcol;

@@ -3,10 +3,10 @@
 
 #include <functional>
 
-#include "Soup/SoupSFML.hpp"
-#include "Soup/Jackstd.hpp"
-#include "Soup/Graphics.hpp"
-#include "Soup/Grid.hpp"
+#include "../Soup/SoupSFML.hpp"
+#include "../Soup/Jackstd.hpp"
+#include "../Soup/Graphics.hpp"
+#include "../Soup/Grid.hpp"
 
 #include "NeuralNet.hpp"
 

@@ -9,4 +9,7 @@ void sfQuadPositions(sf::Vertex quad[], Rectf rec);
 void sfQuadTexcoords(sf::Vertex quad[], Rectf rec);
 void sfQuadColour(sf::Vertex quad[], Colour col);
 
+void sfQuadPositions(sf::Vertex quad[], Recti rec);
+void sfQuadTexcoords(sf::Vertex quad[], Recti rec);
+
 #endif
