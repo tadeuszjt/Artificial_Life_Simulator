@@ -21,11 +21,11 @@ void keyboard(sf::Keyboard::Key key, bool press, bool release) {
 				boats.pause = !boats.pause;
 			} break;
 			
-			case sf::Keyboard::Up : {
+			case sf::Keyboard::Add : {
 				step *= 2;
 			} break;
 			
-			case sf::Keyboard::Down : {
+			case sf::Keyboard::Subtract : {
 				step /= 2;
 				if (step < 1) step = 1;
 			} break;

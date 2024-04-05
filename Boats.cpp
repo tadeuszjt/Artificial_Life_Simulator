@@ -233,7 +233,6 @@ Boats::update() {
 				// position
 				Vec2f cpos = d->pos + Vec2f_randNorm()*1.4;
 				Vec2f cdir = d->dir;
-				c->dir = d->dir;
 				c->setPos(cpos, cdir);
 				
 				// network
