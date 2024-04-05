@@ -3,7 +3,7 @@
 #include "Swarms/SwarmsMain.hpp"
 
 int main() {
-    //runBoats();
-    //runEcosystem();
-    runSwarms();
+  // runBoats();
+  // runEcosystem();
+  runSwarms();
 }
